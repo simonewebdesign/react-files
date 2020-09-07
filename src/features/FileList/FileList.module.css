@@ -1,0 +1,70 @@
+.table {
+    box-sizing: border-box;
+    table-layout: fixed;
+    width: 90vw;
+    text-align: left;
+    font-size: 0.75rem;
+    margin: 3rem auto 0 auto;
+    color: #fff;
+}
+
+.table button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    white-space: nowrap;
+    padding-left: 0;
+    font-size: 1rem;
+    color: inherit;
+}
+
+.table,
+.table caption {
+    padding-left: 1rem;
+}
+
+.table caption {
+    text-align: inherit;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.table [type="search"] {
+    margin-left: 1rem;
+}
+
+.table th:nth-child(1),
+.table td:nth-child(1) {
+    width: 30px;
+    color: #aeaeae;
+}
+
+.table th:nth-child(3),
+.table td:nth-child(3) {
+    width: 40px;
+}
+
+.table th:nth-child(4),
+.table td:nth-child(4) {
+    min-width: 100px;
+}
+
+.table th:nth-child(5),
+.table td:nth-child(5) {
+    width: 140px;
+    white-space: nowrap;
+}
+
+.table th:nth-child(6),
+.table td:nth-child(6) {
+    width: 90px;
+}
+
+@media screen and (max-width: 767px) {
+    .table th:nth-child(2),
+    .table td:nth-child(2),
+    .table th:nth-child(4),
+    .table td:nth-child(4) {
+        width: 100px;
+    }
+}
